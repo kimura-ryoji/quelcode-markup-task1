@@ -270,3 +270,75 @@ footer p {
     margin-left: 599px;
 }
 
+/* ↓news.html↓ */
+
+.news_top h1 {
+    width: 96px;
+    height: 29px;
+    letter-spacing: 3px;
+    font-family: Noto Sans;
+    font-size: 30px;
+    color: #3B3B3B;
+    opacity: 1;
+    text-align: left;
+    top: 239px;
+    left: 228px;
+    position: absolute;
+}
+
+.news_contents p {
+    width: 96px;
+    height: 29px;
+    text-align: left;
+    font-family: DNPShueiMinPr6;
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    color: #3B3B3B;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+
+.news_contents img {
+    margin-top: 70px;
+}
+
+/* ↓Q&A.html↓ */
+
+.q_and_a_top h1 {
+    width: 80px;
+    height: 29px;
+    text-align: left;
+    font-family: Noto Sans;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    opacity: 1;
+    top: 239px;
+    left: 228px;
+    position: absolute;
+}
+
+.question h2 {
+    width: 139px;
+    height: 19px;
+    text-align: left;
+    font-family: DNPShueiMinPr6;
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    color: #3B3B3B;
+    opacity: 1;
+    padding-top: 93px;
+    margin: 0 auto;
+}
+
+.question p {
+    padding-top: 80px;
+    text-align: left;
+    font-family: DNPShueiMinPr6;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #3B3B3B;
+    opacity: 1;
+    margin-left: 403px;
+}
