@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>家具サイト</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'qzm4mdy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 </head>
 
 <body>
@@ -21,8 +52,9 @@
         <main>
             <div class="top">
                 <img src="image/img_01.png">
-                <div class="back_square"></div>
-                <h1>We propose a life.</h1>
+                <div class="back_square">
+                    <h1>We propose a life.</h1>
+                </div>
             </div>
             <div class="contents">
                 <img src="image/img_02.png">

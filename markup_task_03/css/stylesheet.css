@@ -12,7 +12,8 @@ header {
 
 .header-logo {
     text-align: center;
-    font: SemiBold 16px/16px Gill Sans;
+    font-family: Gill Sans;
+    font-size: 16px;
     letter-spacing: 0;
     opacity: 1;
     margin-top: 15px;
@@ -39,7 +40,7 @@ header ul {
 header li {
     list-style: none;
     text-align: left;
-    font: ExtraLight 16px/22px Noto Sans;
+    font-family: Noto Sans;
     letter-spacing: 0;
     opacity: 0.5;
 }
@@ -57,15 +58,20 @@ header li a {
     top: 324px;
     position: absolute;
 }
-.top h1 {
+.back_square h1 {
     text-align: left;
-    font: Thin 60px/82px Noto Sans;
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 60px;
     letter-spacing: 3px;
     color: #918F89;
     opacity: 1;
-    top: 355px;
-    margin-left: 88px;
-    position: absolute;
+    height: 82px;
+    top: 31px;
+    left: 88px;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
 }
 
 .contents {
@@ -83,7 +89,10 @@ header li a {
 
 .contents_text h2 {
     text-align: left;
-    font: L 25px/53px DNPShueiMinPr6;
+    font-family: dnp-shuei-mincho-pr6n,
+sans-serif;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 2.5px;
     color: #3B3B3B;
     opacity: 1;
@@ -92,7 +101,8 @@ header li a {
 
 .contents_text p {
     text-align: left;
-    font: L 12px/30px DNP ShueiGoKinStd;
+    font-family: DNP ShueiGoKinStd;
+    font-size: 12px;
     letter-spacing: 0.36px;
     color: #3B3B3B;
     opacity: 1;
@@ -103,7 +113,11 @@ header li a {
     width: 194px;
     height: 29px;
     text-align: left;
-    font: L 25px/53px DNPShueiMinPr6;
+    font-family: dnp-shuei-mincho-pr6n,
+    sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
     letter-spacing: 2.5px;
     color: #3B3B3B;
     opacity: 1;
@@ -122,7 +136,10 @@ header li a {
     width: 79px;
     height: 29px;
     text-align: left;
-    font: ExtraLight 25px/53px Noto Sans;
+    font-family: Noto Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 2.5px;
     color: #3B3B3B;
     opacity: 1;
@@ -137,7 +154,8 @@ header li a {
 
 .news p {
     text-align: left;
-    font: ExtraLight 21px/53px Noto Sans;
+    font-family: Noto Sans;
+    font-size: 21px;
     letter-spacing: 1.05px;
     color: #3B3B3B;
     opacity: 1;
@@ -151,7 +169,8 @@ header li a {
 
 .contact h2 {
     text-align: left;
-    font: ExtraLight 25px/53px Noto Sans;
+    font-family: Noto Sans;
+    font-size: 25px;
     letter-spacing: 2.5px;
     color: #3B3B3B;
     opacity: 1;
@@ -212,7 +231,8 @@ footer {
     width: 77px;
     height: 48px;
     text-align: center;
-    font: SemiBold 22px/21px Gill Sans;
+    font-family: Gill Sans;
+    font-size: 22px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -230,7 +250,8 @@ footer ul {
 footer li {
     list-style: none;
     text-align: left;
-    font: ExtraLight 18px/24px Noto Sans;
+    font-family: Noto Sans;
+    font-size: 18px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -241,9 +262,11 @@ footer p {
     width: 82px;
     height: 9px;
     text-align: center;
-    font: Light 10px/16px Gill Sans;
+    font-family: Gill Sans;
+    font-size: 10px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
     opacity: 1;
     margin-left: 599px;
 }
+
