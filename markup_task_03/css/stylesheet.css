@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 .container {
     margin: 0 auto;
-    width: 1280px;
+    width: 100%;
     background: #FCFCFC 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -40,7 +44,7 @@ header ul {
 header li {
     list-style: none;
     text-align: left;
-    font-family: Noto Sans;
+    font-family: Noto Sans JP;
     letter-spacing: 0;
     opacity: 0.5;
 }
@@ -60,8 +64,8 @@ header li a {
 }
 .back_square h1 {
     text-align: left;
-    font-family: Noto Sans;
-    font-weight: 400;
+    font-family: Noto Sans JP;
+    font-weight: 100;
     font-size: 60px;
     letter-spacing: 3px;
     color: #918F89;
@@ -89,9 +93,8 @@ header li a {
 
 .contents_text h2 {
     text-align: left;
-    font-family: dnp-shuei-mincho-pr6n,
-sans-serif;
-    font-weight: 400;
+    font-family: Noto Serif JP;
+    font-weight: 300;
     font-style: normal;
     letter-spacing: 2.5px;
     color: #3B3B3B;
@@ -101,7 +104,7 @@ sans-serif;
 
 .contents_text p {
     text-align: left;
-    font-family: DNP ShueiGoKinStd;
+    font-family: Noto Sans JP;
     font-size: 12px;
     letter-spacing: 0.36px;
     color: #3B3B3B;
@@ -110,12 +113,10 @@ sans-serif;
 }
 
 .gallery h2 {
-    width: 194px;
     height: 29px;
     text-align: left;
-    font-family: dnp-shuei-mincho-pr6n,
-    sans-serif;
-    font-weight: 400;
+    font-family: Noto Serif JP,sans-serif;
+    font-weight: 300;
     font-size: 25px;
     font-style: normal;
     letter-spacing: 2.5px;
@@ -133,10 +134,10 @@ sans-serif;
 }
 
 .news h2 {
-    width: 79px;
     height: 29px;
     text-align: left;
-    font-family: Noto Sans;
+    font-family: Noto Sans JP;
+    font-weight: 100;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -154,7 +155,8 @@ sans-serif;
 
 .news p {
     text-align: left;
-    font-family: Noto Sans;
+    font-family: Noto Sans JP;
+    font-weight: 100;
     font-size: 21px;
     letter-spacing: 1.05px;
     color: #3B3B3B;
@@ -169,7 +171,8 @@ sans-serif;
 
 .contact h2 {
     text-align: left;
-    font-family: Noto Sans;
+    font-family: Noto Sans JP;
+    font-weight: 100;
     font-size: 25px;
     letter-spacing: 2.5px;
     color: #3B3B3B;
@@ -250,7 +253,8 @@ footer ul {
 footer li {
     list-style: none;
     text-align: left;
-    font-family: Noto Sans;
+    font-family: Noto Sans JP;
+    font-weight: 100;
     font-size: 18px;
     letter-spacing: 0;
     color: #FFFFFF;
