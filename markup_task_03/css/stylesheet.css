@@ -346,3 +346,13 @@ footer p {
     opacity: 1;
     margin-left: 403px;
 }
+
+.question i {
+    text-align: center;
+    letter-spacing: 0;
+    color: #B2B2B2;
+    opacity: 1;
+    top: 673px;
+    left: 852px;
+    position: absolute;
+}
