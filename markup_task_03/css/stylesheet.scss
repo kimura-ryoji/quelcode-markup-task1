@@ -1,0 +1,54 @@
+$page_color: #FCFCFC;
+$white: #FFFFFF;
+$text_dark_gray: #3B3B3B;
+$light_gray: #918F89;
+
+@media all and (min-width:769px) {
+
+body {
+    width: 100%;
+    background: $page_color 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-wrap: wrap;
+
+header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    .header-logo {
+        text-align: center;
+        font-family: Noto Sans JP;
+        font-size: 16px;
+        letter-spacing: 0;
+        opacity: 1;
+        margin-top: 15px;
+        margin-left: 88px;
+        a {
+            color: $light_gray;
+            text-decoration: none;
+        }
+    }
+    ul {
+        width: 336px;
+        height: 35px;
+        text-align: right;
+        margin-right: 89px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    li {
+        list-style: none;
+        font-family: Noto Sans JP;
+        opacity: 0.5;
+        a {
+            text-decoration: none;
+            color: $light_gray;
+        }
+    }
+}
+
+}
+
+}

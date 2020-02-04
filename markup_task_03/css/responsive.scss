@@ -1,0 +1,18 @@
+@media all and (max-width:768px) {
+    .container {
+        header {
+            height: 55px;
+            background: #918F89 0% 0% no-repeat padding-box;
+            opacity: 1;
+            .header-logo {
+                text-align: center;
+                font-family: Noto Sans JP;
+                font-size: 16px;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+                margin: auto;
+            }
+        }
+    }
+}
