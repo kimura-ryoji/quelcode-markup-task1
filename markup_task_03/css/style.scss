@@ -277,18 +277,18 @@ footer {
 /* ↓news.html↓ */
 
 .news_top {
+    img {
+        width: 100%;
+    }
     h1 {
-            width: 96px;
-            height: 29px;
-            letter-spacing: 3px;
-            font-family: Noto Sans JP;
-            font-size: 30px;
-            color: $text_dark_gray;
-            opacity: 1;
-            text-align: left;
-            top: 239px;
-            left: 228px;
-            position: absolute;
+        color: $light_gray;
+        font-family: Noto Sans JP;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 53px;
+        top: 239px;
+        left: 228px;
+        position: absolute;
     }
 }
 
@@ -297,13 +297,13 @@ footer {
             width: 96px;
             height: 29px;
             text-align: left;
-            font-family: DNPShueiMinPr6;
+            font-family: Noto Sans JP;
             font-size: 21px;
+            font-weight: 300;
             letter-spacing: 2.1px;
             color: $text_dark_gray;
             opacity: 1;
-            margin: 0 auto;
-            margin-top: 96px;
+            margin: 80px auto;
         }
 
         img {
@@ -318,52 +318,46 @@ footer {
 /* ↓Q&A.html↓ */
 
 .q_and_a_top {
+    img {
+        width: 100%;
+    }
     h1 {
-            width: 80px;
-            height: 29px;
-            text-align: left;
-            font-family: Noto Sans JP;
-            font-size: 30px;
-            letter-spacing: 3px;
-            color: $white;
-            opacity: 1;
-            top: 239px;
-            left: 228px;
-            position: absolute;
+        color: $white;
+        font-family: Noto Sans JP;
+        font-size: 30px;
+        font-weight: 300;
+        top: 239px;
+        left: 228px;
+        position: absolute;
     }
 }
 
 .question {
     h2 {
-            width: 139px;
-            height: 19px;
-            text-align: left;
-            font-family: DNPShueiMinPr6;
-            font-size: 21px;
-            letter-spacing: 2.1px;
-            color: $text_dark_gray;
-            opacity: 1;
-            padding-top: 93px;
-            margin: 0 auto;
+        color: $text_dark_gray;
+        font-family: Noto Sans JP;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 98px;
     }
-    p {
-            padding-top: 80px;
-            text-align: left;
-            font-family: DNPShueiMinPr6;
+    .down {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 470px;
+        margin: 73px auto;
+        p {
+            color: $text_dark_gray;
+            font-family: Noto Sans JP;
+            font-weight: 300;
             font-size: 16px;
             letter-spacing: 1.6px;
-            color: $text_dark_gray;
-            opacity: 1;
-            margin-left: 403px;
-    }
-    i {
-        text-align: center;
-        letter-spacing: 0;
-        color: #B2B2B2;
-        opacity: 1;
-        top: 673px;
-        left: 852px;
-        position: absolute;
+        }
+        i {
+            color: $light_gray;
+        }
     }
 }
 }
