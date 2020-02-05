@@ -170,6 +170,7 @@ main {
     .contact {
         padding-top: 200px;
         margin: 0 auto;
+        flex-direction: column;
         h2 {
             text-align: center;
             font-family: Noto Sans JP;
@@ -187,7 +188,6 @@ main {
             border-radius: 11px;
             opacity: 0.6;
             margin-top: 60px;
-            margin-bottom: 30px;
         }
         .mail {
             width: 463px;
@@ -196,7 +196,7 @@ main {
             border: 0.5px solid #707070;
             border-radius: 11px;
             opacity: 0.6;
-            margin-bottom: 30px;
+            margin-top: 30px;
         }
         textarea {
             width: 463px;
@@ -205,7 +205,7 @@ main {
             border: 0.5px solid #707070;
             border-radius: 11px;
             opacity: 0.6;
-            margin-bottom: 60px;
+            margin-top: 30px;
         }
         .submit {
             width: 111px;
@@ -213,13 +213,14 @@ main {
             background: #D1D1D1 0% 0% no-repeat padding-box;
             opacity: 1;
             border-radius: 16px;
+            margin-top: 60px;
         }
     }
 }
 
 footer {
     width: 100%;
-    height: 416px;
+    height: 284px;
     background: #918F89 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 233px;
@@ -239,7 +240,7 @@ footer {
         display: flex;
         justify-content: space-between;
         padding-left: 726px;
-        padding-bottom: 124px;
+        margin-bottom: 0;
         li {
             list-style: none;
             text-align: left;
@@ -253,14 +254,13 @@ footer {
         }
     }
     p {
-        width: 82px;
-        height: 9px;
         text-align: center;
         font-family: Gill Sans;
         font-size: 10px;
         letter-spacing: 0.4px;
         color: $white;
         opacity: 1;
+        padding-top: 75px;
         margin: 0 auto;
     }
 }
