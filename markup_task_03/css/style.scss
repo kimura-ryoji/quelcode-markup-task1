@@ -14,8 +14,6 @@ body {
     width: 100%;
     background: $page_color 0% 0% no-repeat padding-box;
     opacity: 1;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 header {
@@ -35,26 +33,30 @@ header {
                     text-decoration: none;
             }
     }
-    ul {
-        width: 335px;
-        height: 35px;
-        top: 25px;
-        left: 855px;
-        position: relative;
+    .nav-container {
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    li {
-        list-style: none;
-        text-align: left;
-        font-family: Noto Sans JP;
-        letter-spacing: 0;
-        opacity: 0.5;
-        a {
-            text-decoration: none;
-            color: #272727;
+        justify-content: flex-end;
+        ul {
+            width: 335px;
+            height: 35px;
+            top: 25px;
+            text-align: right;
+            margin-right: 89px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        li {
+            list-style: none;
+            text-align: left;
+            font-family: Noto Sans JP;
+            letter-spacing: 0;
+            opacity: 0.5;
+            a {
+                text-decoration: none;
+                color: #272727;
+            }
         }
     }
 }
@@ -170,7 +172,9 @@ main {
     .contact {
         padding-top: 200px;
         margin: 0 auto;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
         h2 {
             text-align: center;
             font-family: Noto Sans JP;
@@ -180,40 +184,46 @@ main {
             color: $text_dark_gray;
             opacity: 1;
         }
-        .name {
-            width: 463px;
-            height: 35px;
-            background: $white 0% 0% no-repeat padding-box;
-            border: 0.5px solid #707070;
-            border-radius: 11px;
-            opacity: 0.6;
-            margin-top: 60px;
-        }
-        .mail {
-            width: 463px;
-            height: 35px;
-            background: $white 0% 0% no-repeat padding-box;
-            border: 0.5px solid #707070;
-            border-radius: 11px;
-            opacity: 0.6;
-            margin-top: 30px;
-        }
-        textarea {
-            width: 463px;
-            height: 156px;
-            background: $white 0% 0% no-repeat padding-box;
-            border: 0.5px solid #707070;
-            border-radius: 11px;
-            opacity: 0.6;
-            margin-top: 30px;
-        }
-        .submit {
-            width: 111px;
-            height: 35px;
-            background: #D1D1D1 0% 0% no-repeat padding-box;
-            opacity: 1;
-            border-radius: 16px;
-            margin-top: 60px;
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .name {
+                width: 463px;
+                height: 35px;
+                background: $white 0% 0% no-repeat padding-box;
+                border: 0.5px solid #707070;
+                border-radius: 11px;
+                opacity: 0.6;
+                margin-top: 60px;
+            }
+            .mail {
+                width: 463px;
+                height: 35px;
+                background: $white 0% 0% no-repeat padding-box;
+                border: 0.5px solid #707070;
+                border-radius: 11px;
+                opacity: 0.6;
+                margin-top: 30px;
+            }
+            textarea {
+                width: 463px;
+                height: 156px;
+                background: $white 0% 0% no-repeat padding-box;
+                border: 0.5px solid #707070;
+                border-radius: 11px;
+                opacity: 0.6;
+                margin-top: 30px;
+            }
+            .submit {
+                width: 111px;
+                height: 35px;
+                background: #707070 0% 0% no-repeat padding-box;
+                color: $white;
+                opacity: 1;
+                border-radius: 16px;
+                margin-top: 60px;
+            }
         }
     }
 }
@@ -261,7 +271,7 @@ footer {
         color: $white;
         opacity: 1;
         padding-top: 75px;
-        margin: 0 auto;
+        margin: 0
     }
 }
 

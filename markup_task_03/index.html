@@ -48,11 +48,13 @@
     <div class="container">
         <header>
             <div class="header-logo"><a href="#">HTML<br>CSS</a></div>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="others/news.html">News</a></li>
-                <li><a href="others/q_and_a.html">Q&A</a></li>
-            </ul>
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="others/news.html">News</a></li>
+                    <li><a href="others/q_and_a.html">Q&A</a></li>
+                </ul>
+            </div>
         </header>
         <main>
             <div class="top">
@@ -88,10 +90,12 @@
             </div>
             <div class="contact">
                 <h2>CONTACT</h2>
-                <input type="text" value="" placeholder=" お名前" class="name">
-                <input type="text" value="" placeholder=" メールアドレス" class="mail">
-                <textarea placeholder=" お問い合わせ内容"></textarea>
-                <input type="submit" value="SEND" class="submit">
+                <div class="contact-form">
+                    <input type="text" value="" placeholder=" お名前" class="name">
+                    <input type="text" value="" placeholder=" メールアドレス" class="mail">
+                    <textarea placeholder=" お問い合わせ内容"></textarea>
+                    <input type="submit" value="SEND" class="submit">
+                </div>
             </div>
         </main>
         <footer>
