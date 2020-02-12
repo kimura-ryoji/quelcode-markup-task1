@@ -368,7 +368,7 @@ footer {
         width: 470px;
         margin: 73px auto;
 
-        p {
+        h3 {
             color: $text_dark_gray;
             font-family: Noto Sans JP;
             font-weight: 300;
@@ -378,6 +378,22 @@ footer {
 
         i {
             color: $light_gray;
+        }
+
+    }
+    .dropdown {
+        text-align: center;
+        margin: 0 auto;
+        p {
+            display: inline-block;
+            text-align: left;
+            letter-spacing: 0.36px;
+            opacity: 1;
+            color: $text_dark_gray;
+            font-family: Noto Sans JP;
+            font-size: 12px;
+            line-height: 20px;
+            width: 474px;
         }
     }
 }
