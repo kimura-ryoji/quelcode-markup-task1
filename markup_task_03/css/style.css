@@ -1,9 +1,6 @@
 @charset "UTF-8";
 @media all and (min-width: 769px) {
   body {
-    margin: 0 auto; }
-
-  .container {
     margin: 0 auto;
     width: 100%;
     background: #fcfcfc 0% 0% no-repeat padding-box;
@@ -48,44 +45,49 @@
           text-decoration: none;
           color: #272727; }
 
-  main .top h1 {
-    text-align: left;
-    font-family: Noto Sans JP;
-    font-weight: 100;
-    font-size: 60px;
-    letter-spacing: 3px;
-    color: #918f89;
-    opacity: 1;
-    padding: 31px 60px 23px 88px;
-    background-color: rgba(255, 255, 255, 0.8);
-    top: 264px;
-    position: absolute; }
+  main .top {
+    background-image: url(../image/img_01.png);
+    height: 741px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .top h1 {
+      text-align: left;
+      font-family: Noto Sans JP;
+      font-weight: 100;
+      font-size: 60px;
+      letter-spacing: 3px;
+      color: #918f89;
+      opacity: 1;
+      padding: 31px 60px 23px 88px;
+      background-color: rgba(255, 255, 255, 0.8);
+      top: 264px;
+      position: absolute; }
 
-  .contents {
-    display: flex; }
-    .contents img {
-      padding-top: 142px;
-      padding-left: 88px; }
-    .contents .contents_text {
-      padding-left: 70px; }
-      .contents .contents_text h2 {
-        text-align: left;
-        font-family: Noto Serif JP;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 2.5px;
-        color: #3b3b3b;
-        opacity: 1;
-        padding-top: 343px; }
-      .contents .contents_text p {
-        text-align: left;
-        font-family: Noto Sans JP;
-        font-size: 12px;
-        line-height: 30px;
-        letter-spacing: 0.36px;
-        color: #3b3b3b;
-        opacity: 1;
-        padding-top: 40px; }
+  .contents_text {
+    padding-left: 702px;
+    background-image: url(../image/img_02.png);
+    background-origin: padding-box;
+    background-position: 88px 142px;
+    background-repeat: no-repeat;
+    margin: 0 auto; }
+    .contents_text h2 {
+      text-align: left;
+      font-family: Noto Serif JP;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: 2.5px;
+      color: #3b3b3b;
+      opacity: 1;
+      padding-top: 343px; }
+    .contents_text p {
+      text-align: left;
+      font-family: Noto Sans JP;
+      font-size: 12px;
+      line-height: 30px;
+      letter-spacing: 0.36px;
+      color: #3b3b3b;
+      opacity: 1;
+      padding-top: 40px; }
 
   .gallery h2 {
     height: 29px;
@@ -135,10 +137,10 @@
     margin: 0;
     display: flex;
     justify-content: center; }
-    .contact .contact-form {
+    .contact form {
       display: flex;
       flex-direction: column; }
-      .contact .contact-form h2 {
+      .contact form h2 {
         text-align: center;
         font-family: Noto Sans JP;
         font-weight: 100;
@@ -146,7 +148,7 @@
         letter-spacing: 2.5px;
         color: #3b3b3b;
         opacity: 1; }
-      .contact .contact-form .name {
+      .contact form .name {
         width: 463px;
         height: 35px;
         background: #ffffff 0% 0% no-repeat padding-box;
@@ -154,7 +156,7 @@
         border-radius: 11px;
         opacity: 0.6;
         margin-top: 60px; }
-      .contact .contact-form .mail {
+      .contact form .mail {
         width: 463px;
         height: 35px;
         background: #ffffff 0% 0% no-repeat padding-box;
@@ -162,7 +164,7 @@
         border-radius: 11px;
         opacity: 0.6;
         margin-top: 30px; }
-      .contact .contact-form textarea {
+      .contact form textarea {
         width: 463px;
         height: 156px;
         background: #ffffff 0% 0% no-repeat padding-box;
@@ -170,7 +172,7 @@
         border-radius: 11px;
         opacity: 0.6;
         margin-top: 30px; }
-      .contact .contact-form .submit {
+      .contact form .submit {
         width: 111px;
         height: 35px;
         background: #707070 0% 0% no-repeat padding-box;

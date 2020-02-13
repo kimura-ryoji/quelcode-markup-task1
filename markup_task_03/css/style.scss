@@ -6,10 +6,6 @@ $light_gray: #918f89;
 @media all and (min-width: 769px) {
     body {
         margin: 0 auto;
-    }
-
-    .container {
-        margin: 0 auto;
         width: 100%;
         background: $page_color 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -69,6 +65,10 @@ $light_gray: #918f89;
 
     main {
         .top {
+            background-image: url(../image/img_01.png);
+            height: 741px;
+            background-repeat: no-repeat;
+            background-size: cover;
 
             h1 {
                 text-align: left;
@@ -86,16 +86,13 @@ $light_gray: #918f89;
         }
     }
 
-    .contents {
-        display: flex;
-
-        img {
-            padding-top: 142px;
-            padding-left: 88px;
-        }
-
-        .contents_text {
-            padding-left: 70px;
+    .contents_text {
+        padding-left: 702px;
+        background-image: url(../image/img_02.png);
+        background-origin: padding-box;
+        background-position: 88px 142px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
 
             h2 {
                 text-align: left;
@@ -119,7 +116,6 @@ $light_gray: #918f89;
                 padding-top: 40px;
             }
         }
-    }
 
     .gallery {
         h2 {
@@ -182,7 +178,7 @@ $light_gray: #918f89;
         display: flex;
         justify-content: center;
 
-        .contact-form {
+        form {
             h2 {
                 text-align: center;
                 font-family: Noto Sans JP;
