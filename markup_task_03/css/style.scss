@@ -16,7 +16,7 @@ $light_gray: #918f89;
         width: 100%;
         display: flex;
 
-        .header-logo {
+        a {
             text-align: center;
             font-family: Noto Sans JP;
             font-size: 16px;
@@ -31,7 +31,7 @@ $light_gray: #918f89;
             }
         }
 
-        .nav-container {
+        nav {
             display: flex;
             justify-content: flex-end;
             width: 100%;
