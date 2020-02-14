@@ -24,11 +24,8 @@ $light_gray: #918f89;
             opacity: 1;
             margin-top: 15px;
             margin-left: 88px;
-
-            a {
-                color: #918f89;
-                text-decoration: none;
-            }
+            color: $light_gray;
+            text-decoration: none;
         }
 
         nav {
@@ -64,25 +61,18 @@ $light_gray: #918f89;
     }
 
     main {
-        .top {
-            background-image: url(../image/img_01.png);
-            height: 741px;
-            background-repeat: no-repeat;
-            background-size: cover;
 
-            h1 {
-                text-align: left;
-                font-family: Noto Sans JP;
-                font-weight: 100;
-                font-size: 60px;
-                letter-spacing: 3px;
-                color: $light_gray;
-                opacity: 1;
-                padding: 31px 60px 23px 88px;
-                background-color: rgba(255, 255, 255, 0.8);
-                top: 264px;
-                position: absolute;
-            }
+        h1 {
+            text-align: left;
+            font-family: Noto Sans JP;
+            font-size: 60px;
+            color: $light_gray;
+            letter-spacing: 3px;
+            top: 295px;
+            left: 88px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 31px 60px 23px 88px;
+            margin-top: 264px;
         }
     }
 
@@ -94,28 +84,28 @@ $light_gray: #918f89;
         background-repeat: no-repeat;
         margin: 0 auto;
 
-            h2 {
-                text-align: left;
-                font-family: Noto Serif JP;
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: 2.5px;
-                color: $text_dark_gray;
-                opacity: 1;
-                padding-top: 343px;
-            }
-
-            p {
-                text-align: left;
-                font-family: Noto Sans JP;
-                font-size: 12px;
-                line-height: 30px;
-                letter-spacing: 0.36px;
-                color: $text_dark_gray;
-                opacity: 1;
-                padding-top: 40px;
-            }
+        h2 {
+            text-align: left;
+            font-family: Noto Serif JP;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: 2.5px;
+            color: $text_dark_gray;
+            opacity: 1;
+            padding-top: 343px;
         }
+
+        p {
+            text-align: left;
+            font-family: Noto Sans JP;
+            font-size: 12px;
+            line-height: 30px;
+            letter-spacing: 0.36px;
+            color: $text_dark_gray;
+            opacity: 1;
+            padding-top: 40px;
+        }
+    }
 
     .gallery {
         h2 {
@@ -377,9 +367,11 @@ footer {
         }
 
     }
+
     .dropdown {
         text-align: center;
         margin: 0 auto;
+
         p {
             display: inline-block;
             text-align: left;

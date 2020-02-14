@@ -10,22 +10,21 @@
     height: 60px;
     width: 100%;
     display: flex; }
-    header .header-logo {
+    header a {
       text-align: center;
       font-family: Noto Sans JP;
       font-size: 16px;
       letter-spacing: 0;
       opacity: 1;
       margin-top: 15px;
-      margin-left: 88px; }
-      header .header-logo a {
-        color: #918f89;
-        text-decoration: none; }
-    header .nav-container {
+      margin-left: 88px;
+      color: #918f89;
+      text-decoration: none; }
+    header nav {
       display: flex;
       justify-content: flex-end;
       width: 100%; }
-      header .nav-container ul {
+      header nav ul {
         width: 335px;
         height: 35px;
         top: 25px;
@@ -35,33 +34,27 @@
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-between; }
-      header .nav-container li {
+      header nav li {
         list-style: none;
         text-align: left;
         font-family: Noto Sans JP;
         letter-spacing: 0;
         opacity: 0.5; }
-        header .nav-container li a {
+        header nav li a {
           text-decoration: none;
           color: #272727; }
 
-  main .top {
-    background-image: url(../image/img_01.png);
-    height: 741px;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    main .top h1 {
-      text-align: left;
-      font-family: Noto Sans JP;
-      font-weight: 100;
-      font-size: 60px;
-      letter-spacing: 3px;
-      color: #918f89;
-      opacity: 1;
-      padding: 31px 60px 23px 88px;
-      background-color: rgba(255, 255, 255, 0.8);
-      top: 264px;
-      position: absolute; }
+  main h1 {
+    text-align: left;
+    font-family: Noto Sans JP;
+    font-size: 60px;
+    color: #918f89;
+    letter-spacing: 3px;
+    top: 295px;
+    left: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 31px 60px 23px 88px;
+    margin-top: 264px; }
 
   .contents_text {
     padding-left: 702px;
