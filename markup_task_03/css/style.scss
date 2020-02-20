@@ -62,17 +62,25 @@ $light_gray: #918f89;
 
     main {
 
+        .top_img {
+            background-image: url(../image/img_01.png);
+            background-size: cover;
+            padding-left: 1280px;
+            padding-top: 741px;
+        }
+
+
         h1 {
             text-align: left;
             font-family: Noto Sans JP;
             font-size: 60px;
+            font-weight: 400;
             color: $light_gray;
             letter-spacing: 3px;
             top: 295px;
-            left: 88px;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 31px 60px 23px 88px;
-            margin-top: 264px;
+            position: absolute;
         }
     }
 
@@ -93,6 +101,7 @@ $light_gray: #918f89;
             color: $text_dark_gray;
             opacity: 1;
             padding-top: 343px;
+            margin: 0;
         }
 
         p {
@@ -104,6 +113,8 @@ $light_gray: #918f89;
             color: $text_dark_gray;
             opacity: 1;
             padding-top: 40px;
+            padding-bottom: 92px;
+            margin: 0;
         }
     }
 
@@ -119,12 +130,20 @@ $light_gray: #918f89;
             color: $text_dark_gray;
             opacity: 1;
             padding-top: 200px;
-        }
+            padding-bottom: 582px;
+            background-image: url(../image/img_03.png);
+            background-repeat: no-repeat;
+            background-position: center bottom;
 
-        img {
-            padding-top: 50px;
-            display: block;
+        }
+        ul {
+            transform: rotate(-90deg);
+            display: inline-block;
             margin: 0 auto;
+
+            li {
+                color: #A5A5A5;
+            }
         }
     }
 
@@ -145,21 +164,30 @@ $light_gray: #918f89;
             padding-bottom: 50px;
         }
 
-        .news_img {
-            display: flex;
-            justify-content: space-around;
-        }
-
         p {
-            text-align: center;
-            font-family: Noto Sans JP;
-            font-weight: 100;
-            font-size: 21px;
-            letter-spacing: 1.05px;
-            color: $text_dark_gray;
-            opacity: 1;
-            margin-top: 50px;
+            background-repeat: no-repeat;
+            armstrong1 {
+                background-image: url(../image/img_04.png);
+                padding-top: 437px;
+            }
+            armstrong2 {
+                background-image: url(../image/img_05.png);
+            }
+            armstrong3 {
+                background-image: url(../image/img_06.png);
+            }
         }
+    }
+
+    .more {
+        text-decoration: none;
+        color: $text_dark_gray;
+        font-family: Noto Sans JP;
+        font-size: 21px;
+        line-height: 53px;
+        width: 113px;
+        display: block;
+        margin: 0 auto;
     }
 
     .contact {
@@ -167,17 +195,18 @@ $light_gray: #918f89;
         margin: 0;
         display: flex;
         justify-content: center;
+        h2 {
+            text-align: center;
+            font-family: Noto Sans JP;
+            font-weight: 100;
+            font-size: 25px;
+            letter-spacing: 2.5px;
+            color: $text_dark_gray;
+            opacity: 1;
+            height: 29px;
+        }
 
         form {
-            h2 {
-                text-align: center;
-                font-family: Noto Sans JP;
-                font-weight: 100;
-                font-size: 25px;
-                letter-spacing: 2.5px;
-                color: $text_dark_gray;
-                opacity: 1;
-            }
 
             display: flex;
             flex-direction: column;
@@ -233,24 +262,27 @@ footer {
     margin-top: 233px;
 
     .footer-logo {
-        width: 77px;
-        height: 48px;
+        display: inline-block;
         text-align: center;
         font-family: Noto Sans JP;
         font-size: 22px;
-        letter-spacing: 0;
         color: $white;
-        opacity: 1;
+        margin-top: 116px;
         margin-left: 227px;
-        padding-top: 116px;
+        float: left;
+
     }
 
     ul {
         display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
         justify-content: space-between;
-        padding-left: 726px;
-        margin-bottom: 0;
-
+        color: $white;
+        width: 335px;
+        margin: 0;
+        padding-top: 136px;
+        padding-left: 422px;
         li {
             list-style: none;
             text-align: left;
@@ -260,128 +292,34 @@ footer {
             letter-spacing: 0;
             color: $white;
             opacity: 1;
-            margin-right: 102px;
+
         }
     }
 
-    p {
+    .sponsor {
         text-align: center;
         font-family: Gill Sans;
         font-size: 10px;
         letter-spacing: 0.4px;
         color: $white;
         opacity: 1;
-        margin: 35 auto;
+        margin: 0;
+        float: none;
+        clear: both;
+        padding-top: 59px;
     }
 }
 
 /* ↓news.html↓ */
 
-.news_top {
-    img {
-        width: 100%;
-    }
-
-    h1 {
-        color: $light_gray;
-        font-family: Noto Sans JP;
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 53px;
-        top: 239px;
-        left: 228px;
-        position: absolute;
-    }
+.news-top {
+    font-family: Noto Sans JP;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: $light_gray;
+    background-image: url(../image/img_07.png);
+    background-size: cover;
+    padding-left: 1280px;
+    padding-top: 415px;
 }
 
-.news_contents {
-    p {
-        width: 96px;
-        height: 29px;
-        text-align: left;
-        font-family: Noto Sans JP;
-        font-size: 21px;
-        font-weight: 300;
-        letter-spacing: 2.1px;
-        color: $text_dark_gray;
-        opacity: 1;
-        margin: 80px auto;
-    }
-
-    img {
-        margin-top: 70px;
-    }
-}
-
-.news_img {
-    display: flex;
-    justify-content: space-around;
-}
-
-/* ↓Q&A.html↓ */
-
-.q_and_a_top {
-    img {
-        width: 100%;
-    }
-
-    h1 {
-        color: $white;
-        font-family: Noto Sans JP;
-        font-size: 30px;
-        font-weight: 300;
-        top: 239px;
-        left: 228px;
-        position: absolute;
-    }
-}
-
-.question {
-    h2 {
-        color: $text_dark_gray;
-        font-family: Noto Sans JP;
-        font-size: 21px;
-        font-weight: 300;
-        text-align: center;
-        margin-top: 98px;
-    }
-
-    .down {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 470px;
-        margin: 73px auto;
-
-        h3 {
-            color: $text_dark_gray;
-            font-family: Noto Sans JP;
-            font-weight: 300;
-            font-size: 16px;
-            letter-spacing: 1.6px;
-        }
-
-        i {
-            color: $light_gray;
-        }
-
-    }
-
-    .dropdown {
-        text-align: center;
-        margin: 0 auto;
-
-        p {
-            display: inline-block;
-            text-align: left;
-            letter-spacing: 0.36px;
-            opacity: 1;
-            color: $text_dark_gray;
-            font-family: Noto Sans JP;
-            font-size: 12px;
-            line-height: 20px;
-            width: 474px;
-        }
-    }
-}
