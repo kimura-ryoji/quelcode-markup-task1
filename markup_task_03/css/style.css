@@ -469,7 +469,7 @@
   .down .check:checked + .label + .answer {
     visibility: visible;
   }
-  .down .check:checked + .label {
+  .down .check:checked + .label span .fas {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     -webkit-transform: rotate(-180deg);
@@ -483,9 +483,11 @@
     font-weight: 300;
     color: #3b3b3b;
   }
+  .down span {
+    padding-left: 187px;
+  }
   .down i {
     display: inline-block;
-    padding-left: 187px;
     color: #918f89;
   }
   .down .answer {

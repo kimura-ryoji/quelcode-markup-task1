@@ -493,7 +493,7 @@ footer {
         &:checked + .label + .answer {
             visibility: visible;
         }
-        &:checked + .label {
+        &:checked + .label span .fas {
             transition: 0.5s;
             transform: rotate(-180deg);
         }
@@ -506,9 +506,12 @@ footer {
         font-weight: 300;
         color: $text_dark_gray;
     }
+    span {
+        padding-left: 187px;
+
+    }
     i {
         display: inline-block;
-        padding-left: 187px;
         color: $light_gray;
 
     }
