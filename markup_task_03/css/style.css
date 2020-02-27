@@ -469,7 +469,7 @@
   .down .check:checked + .label + .answer {
     visibility: visible;
   }
-  .down .check:checked + .angle-down {
+  .down .check:checked + .label {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     -webkit-transform: rotate(-180deg);

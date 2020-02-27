@@ -493,7 +493,7 @@ footer {
         &:checked + .label + .answer {
             visibility: visible;
         }
-        &:checked + .angle-down {
+        &:checked + .label {
             transition: 0.5s;
             transform: rotate(-180deg);
         }
