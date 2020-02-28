@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家具サイト</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400|Noto+Serif+JP:200,300,400&display=swap"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+
+
+
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'qzm4mdy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body class="fade">
+    <header>
+        <a href="../index.html">HTML<br>CSS</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="q_and_a.html">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="news-top">NEWS</h1>
+        <h2 class="news-h2">最新情報</h2>
+        <div class="news">
+            <div class="armstrong1">
+                <p>アームストロングのカウチ入荷</p>
+            </div>
+            <div class="armstrong2">
+                <p>アームストロングのチェア再入荷</p>
+            </div>
+            <div class="armstrong3">
+                <p>アームストロングのテーブル入荷</p>
+            </div>
+    </main>
+    <footer>
+        <p class="footer-logo">HTML<br>CSS</p>
+        <ul>
+            <li>About</li>
+            <li>News</li>
+            <li>Q&A</li>
+        </ul>
+        <p class="sponsor">@HTMLCSS.code</p>
+    </footer>
+</body>
+
+</html>
