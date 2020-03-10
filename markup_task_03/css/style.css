@@ -53,18 +53,18 @@
     padding-left: 88px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header a {
     text-align: center;
     font-family: Noto Sans JP;
     font-size: 16px;
-    letter-spacing: 0;
-    margin-top: 15px;
     color: #918f89;
     text-decoration: none;
   }
   header nav {
-    text-align: right;
     margin-right: 89px;
   }
   header nav ul {
@@ -118,6 +118,7 @@
     background-position: 88px 142px;
     background-repeat: no-repeat;
     margin: 0 auto;
+    padding-top: 343px;
   }
   .contents_text h2 {
     text-align: left;
@@ -126,8 +127,8 @@
     font-style: normal;
     letter-spacing: 2.5px;
     color: #3b3b3b;
-    padding-top: 343px;
     margin: 0;
+    padding-bottom: 40px;
   }
   .contents_text p {
     text-align: left;
@@ -136,12 +137,10 @@
     line-height: 30px;
     letter-spacing: 0.36px;
     color: #3b3b3b;
-    padding-top: 40px;
-    padding-bottom: 92px;
+    padding-bottom: 292px;
     margin: 0;
   }
   .gallery {
-    padding-top: 200px;
     text-align: center;
   }
   .gallery h2 {
@@ -149,7 +148,6 @@
     font-family: Noto Serif JP, sans-serif;
     font-weight: 300;
     font-size: 25px;
-    font-style: normal;
     letter-spacing: 2.5px;
     color: #3b3b3b;
     padding-bottom: 582px;
@@ -164,6 +162,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding-bottom: 246px;
   }
   .gallery .side-dot {
     color: #A5A5A5;
@@ -173,7 +172,6 @@
     color: #A5A5A5;
   }
   .news {
-    padding-top: 246px;
     text-align: center;
   }
   .news h2 {
@@ -183,7 +181,6 @@
     font-family: Noto Sans JP;
     font-weight: 100;
     font-size: 25px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: 2.5px;
     color: #3b3b3b;
@@ -196,21 +193,28 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .news .armstrong .armstrong1 {
-    background-image: url(../image/img_04.png);
+  .news .armstrong .armstrong1,
+  .news .armstrong .armstrong2,
+  .news .armstrong .armstrong3 {
     background-repeat: no-repeat;
     position: relative;
     width: 334px;
     height: 387px;
   }
-  .news .armstrong .armstrong1:hover::before {
+  .news .armstrong .armstrong1:hover::before,
+  .news .armstrong .armstrong2:hover::before,
+  .news .armstrong .armstrong3:hover::before {
     height: 100%;
   }
-  .news .armstrong .armstrong1:hover p {
+  .news .armstrong .armstrong1:hover p,
+  .news .armstrong .armstrong2:hover p,
+  .news .armstrong .armstrong3:hover p {
     color: #ffffff;
     top: 50%;
   }
-  .news .armstrong .armstrong1::before {
+  .news .armstrong .armstrong1::before,
+  .news .armstrong .armstrong2::before,
+  .news .armstrong .armstrong3::before {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -220,6 +224,9 @@
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     content: '';
+  }
+  .news .armstrong .armstrong1 {
+    background-image: url(../image/img_04.png);
   }
   .news .armstrong .armstrong1 p {
     font-family: Noto Sans JP;
@@ -238,30 +245,6 @@
   }
   .news .armstrong .armstrong2 {
     background-image: url(../image/img_05.png);
-    width: 334px;
-    height: 387px;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 334px;
-    height: 387px;
-  }
-  .news .armstrong .armstrong2:hover::before {
-    height: 100%;
-  }
-  .news .armstrong .armstrong2:hover p {
-    color: #ffffff;
-    top: 50%;
-  }
-  .news .armstrong .armstrong2::before {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-    content: '';
   }
   .news .armstrong .armstrong2 p {
     font-family: Noto Sans JP;
@@ -282,28 +265,6 @@
   }
   .news .armstrong .armstrong3 {
     background-image: url(../image/img_06.png);
-    background-repeat: no-repeat;
-    position: relative;
-    width: 334px;
-    height: 387px;
-  }
-  .news .armstrong .armstrong3:hover::before {
-    height: 100%;
-  }
-  .news .armstrong .armstrong3:hover p {
-    color: #ffffff;
-    top: 50%;
-  }
-  .news .armstrong .armstrong3::before {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-    content: '';
   }
   .news .armstrong .armstrong3 p {
     font-family: Noto Sans JP;
@@ -330,9 +291,9 @@
     padding-top: 39px;
     width: 113px;
     display: inline-block;
+    padding-bottom: 200px;
   }
   .contact {
-    padding-top: 200px;
     margin: 0;
     padding-bottom: 221px;
   }
@@ -358,6 +319,7 @@
     margin: 0 auto;
   }
   .contact form .name {
+    padding: 9px;
     width: 463px;
     height: 35px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -367,6 +329,7 @@
     margin-bottom: 30px;
   }
   .contact form .mail {
+    padding: 9px;
     width: 463px;
     height: 35px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -376,6 +339,7 @@
     margin-bottom: 30px;
   }
   .contact form textarea {
+    padding: 9px;
     width: 463px;
     height: 156px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -411,6 +375,7 @@
     font-size: 22px;
     color: #ffffff;
     margin: 0;
+    padding-bottom: 75px;
   }
   footer ul {
     display: -webkit-box;
@@ -422,13 +387,14 @@
         justify-content: space-around;
     padding: 0;
     margin: 0;
+    height: 24px;
+    padding-bottom: 75px;
   }
   footer ul li {
     font-family: Noto Sans JP;
     font-size: 18px;
     color: #ffffff;
     list-style: none;
-    height: 24px;
   }
   footer .sponsor {
     font-family: Noto Sans JP;
@@ -437,7 +403,7 @@
     width: 84px;
     height: 14px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-bottom: 35px;
   }
   /* ↓news.html↓ */
   .news-top {
@@ -457,6 +423,10 @@
     color: #3b3b3b;
     text-align: center;
     margin-top: 86px;
+    padding-bottom: 80px;
+  }
+  .news-page {
+    padding-bottom: 320px;
   }
   .QandA-top {
     background-image: url(../image/img_08.png);
@@ -474,6 +444,7 @@
     letter-spacing: 0.63px;
     color: #3b3b3b;
     text-align: center;
+    padding-top: 69px;
   }
   .down {
     text-align: left;
@@ -523,6 +494,9 @@
     transition: 0.5s;
     -webkit-animation: fadeOut 0.5s ease 0s 1 normal;
             animation: fadeOut 0.5s ease 0s 1 normal;
+  }
+  .down-last {
+    padding-bottom: 123px;
   }
 }
 /*# sourceMappingURL=style.css.map */
