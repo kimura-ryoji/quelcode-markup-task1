@@ -50,7 +50,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-left: 88px;
+    padding: 0 89px 0 88px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-box-align: center;
@@ -63,9 +63,6 @@
     font-size: 16px;
     color: #918f89;
     text-decoration: none;
-  }
-  header nav {
-    margin-right: 89px;
   }
   header nav ul {
     display: -webkit-box;
@@ -117,8 +114,8 @@
     background-origin: padding-box;
     background-position: 88px 142px;
     background-repeat: no-repeat;
+    padding: 343px 0 292px 702px;
     margin: 0 auto;
-    padding-top: 343px;
   }
   .contents_text h2 {
     text-align: left;
@@ -137,11 +134,11 @@
     line-height: 30px;
     letter-spacing: 0.36px;
     color: #3b3b3b;
-    padding-bottom: 292px;
     margin: 0;
   }
   .gallery {
     text-align: center;
+    padding-bottom: 246px;
   }
   .gallery h2 {
     text-align: center;
@@ -162,7 +159,6 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    padding-bottom: 246px;
   }
   .gallery .side-dot {
     color: #A5A5A5;
@@ -192,6 +188,7 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    padding-bottom: 39px;
   }
   .news .armstrong .armstrong1,
   .news .armstrong .armstrong2,
@@ -288,7 +285,6 @@
     color: #3b3b3b;
     font-family: Noto Sans JP;
     font-size: 21px;
-    padding-top: 39px;
     width: 113px;
     display: inline-block;
     padding-bottom: 200px;
@@ -318,19 +314,9 @@
     width: 463px;
     margin: 0 auto;
   }
-  .contact form .name {
-    padding: 9px;
-    width: 463px;
-    height: 35px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 0.5px solid #707070;
-    border-radius: 11px;
-    opacity: 0.6;
-    margin-bottom: 30px;
-  }
+  .contact form .name,
   .contact form .mail {
     padding: 9px;
-    width: 463px;
     height: 35px;
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 0.5px solid #707070;
@@ -340,7 +326,6 @@
   }
   .contact form textarea {
     padding: 9px;
-    width: 463px;
     height: 156px;
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 0.5px solid #707070;
@@ -365,7 +350,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 116px;
+    padding: 116px 0 35px 0;
   }
   footer .footer-logo {
     -ms-flex-preferred-size: 50%;
@@ -375,7 +360,6 @@
     font-size: 22px;
     color: #ffffff;
     margin: 0;
-    padding-bottom: 75px;
   }
   footer ul {
     display: -webkit-box;
@@ -388,7 +372,6 @@
     padding: 0;
     margin: 0;
     height: 24px;
-    padding-bottom: 75px;
   }
   footer ul li {
     font-family: Noto Sans JP;
@@ -400,10 +383,8 @@
     font-family: Noto Sans JP;
     font-size: 10px;
     color: #ffffff;
-    width: 84px;
-    height: 14px;
     margin: 0 auto;
-    padding-bottom: 35px;
+    padding-top: 75px;
   }
   /* ↓news.html↓ */
   .news-top {

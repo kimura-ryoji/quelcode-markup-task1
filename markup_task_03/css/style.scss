@@ -38,7 +38,7 @@ $light_gray: #918f89;
         width: 100%;
         display: flex;
         justify-content: space-between;
-        padding-left: 88px;
+        padding: 0 89px 0 88px;
         box-sizing: border-box;
         align-items: center;
 
@@ -51,7 +51,6 @@ $light_gray: #918f89;
         }
 
         nav {
-            margin-right: 89px;
             ul {
                 display: flex;
                 flex-wrap: nowrap;
@@ -105,8 +104,8 @@ $light_gray: #918f89;
         background-origin: padding-box;
         background-position: 88px 142px;
         background-repeat: no-repeat;
+        padding: 343px 0 292px 702px;
         margin: 0 auto;
-        padding-top: 343px;
 
         h2 {
             text-align: left;
@@ -126,7 +125,6 @@ $light_gray: #918f89;
             line-height: 30px;
             letter-spacing: 0.36px;
             color: $text_dark_gray;
-            padding-bottom: 292px;
             margin: 0;
         }
     }
@@ -146,6 +144,7 @@ $light_gray: #918f89;
 
         }
         text-align: center;
+        padding-bottom: 246px;
         button {
             background: none;
             border: none;
@@ -153,7 +152,6 @@ $light_gray: #918f89;
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
-            padding-bottom: 246px;
         }
         .side-dot {
             color: #A5A5A5;
@@ -181,6 +179,7 @@ $light_gray: #918f89;
         .armstrong {
             display: flex;
             justify-content: space-around;
+            padding-bottom: 39px;
             .armstrong1,
             .armstrong2,
             .armstrong3 {
@@ -266,7 +265,6 @@ $light_gray: #918f89;
             color: $text_dark_gray;
             font-family: Noto Sans JP;
             font-size: 21px;
-            padding-top: 39px;
             width: 113px;
             display: inline-block;
             padding-bottom: 200px;
@@ -295,20 +293,9 @@ $light_gray: #918f89;
             width: 463px;
             margin: 0 auto;
 
-            .name {
+            .name,
+            .mail{
                 padding: 9px;
-                width: 463px;
-                height: 35px;
-                background: $white 0% 0% no-repeat padding-box;
-                border: 0.5px solid #707070;
-                border-radius: 11px;
-                opacity: 0.6;
-                margin-bottom: 30px;
-            }
-
-            .mail {
-                padding: 9px;
-                width: 463px;
                 height: 35px;
                 background: $white 0% 0% no-repeat padding-box;
                 border: 0.5px solid #707070;
@@ -319,7 +306,6 @@ $light_gray: #918f89;
 
             textarea {
                 padding: 9px;
-                width: 463px;
                 height: 156px;
                 background: $white 0% 0% no-repeat padding-box;
                 border: 0.5px solid #707070;
@@ -345,7 +331,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 116px;
+    padding: 116px 0 35px 0;
     .footer-logo {
         flex-basis: 50%;
         text-align: center;
@@ -353,7 +339,6 @@ footer {
         font-size: 22px;
         color: $white;
         margin: 0;
-        padding-bottom: 75px;
     }
     ul {
         display: flex;
@@ -362,7 +347,6 @@ footer {
         padding: 0;
         margin: 0;
         height: 24px;
-        padding-bottom: 75px;
         li {
             font-family: Noto Sans JP;
             font-size: 18px;
@@ -374,10 +358,8 @@ footer {
         font-family: Noto Sans JP;
         font-size: 10px;
         color: $white;
-        width: 84px;
-        height: 14px;
         margin: 0 auto;
-        padding-bottom: 35px;
+        padding-top: 75px;
     }
 }
 
